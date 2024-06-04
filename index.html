@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotage</title>
+    <link rel="stylesheet" href="Don't Feel Alone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Jacquard+12&family=Jaro:opsz@6..72&family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="main">
+            <div class="left"><a href="Index.html"><img src="logo.png" alt=""></a>
+                
+                <div>Rooms For Rent</div>
+                <!-- i am left -->
+            </div>
+            <nav class="navbar">
+                    <ul>
+                        <li><a href="Index.html" id="home">Home</a></li>
+                        <li><a href="rent agreement.html" id="Agreement">Rental Agreement</a></li>
+                        <li><a href="#">Security Deposit</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </nav>
+        </div>
+        </header>
+    <div class="container">
+        <head>
+            <h2>Struggling to Find Yours Perfect Flats.</h2>
+        </head>
+        <form action="noaction.php" class="form-group">
+            <div class="inp">
+                <input type="text" placeholder="Your Full Name">
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Your Mobile No.">
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Your Email Id.">
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Your Gender">
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Your Address">
+            </div>
+            <input type="button" value="Submit" class="btn">
+        </form>
+    </div>
+    <script>
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          let aboutLink = document.getElementById('home');
+          if (window.location.pathname === `/room%20rent/Index.html`)
+          {
+
+            aboutLink.classList.add('active');
+          }
+        });
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css fonts</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jaro:opsz@6..72&display=swap">
+        <link rel="stylesheet" href="rent agreement css.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <div class="left"><a href="Index.html" id="home"><img src="logo.png" alt=""></a>
+                <!-- <img src="logo.png" alt=""> -->
+                <div>Rooms For Rent</div>
+                <!-- i am left -->
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="Index.html" id="home">Home</a></li>
+                    <li><a href="font.html" id="Agreement">Rental Agreement</a></li>
+                    <li><a href="#">Security Deposit</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Reviews</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <h1>Rental Agreement</h1>
+    <p class="p1"><a href="logo.png">Download Agreement Paper</a></p>
+    <p class="p2"><a href="http://google.com">Terms and Conditions</a></p>
+    
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () { 
+            var aboutLink = document.getElementById('Agreement');
+            if (window.location.pathname === '/room%20rent/rent%20agreement.html') {
+                aboutLink.classList.add('active');
+            }
+        });
+    </script>
+</body>
+
+</html>

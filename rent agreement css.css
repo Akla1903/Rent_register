@@ -1,0 +1,128 @@
+        .p2 {
+            font-size: 23px;
+            line-height: 1.3em;
+            text-align: center;
+            
+            margin-top: 33px;
+        }
+        .p1 {
+            font-size: 23px;
+            line-height: 1.3em;
+            text-align: center;
+            margin-top: 33px;
+           
+        }
+        * {
+            font-family: cursive;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+        }
+
+        
+        header::before{
+            content: "";
+            background-image: url(orange.jpg);
+            
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: 0.9;
+            position: absolute;
+        }
+        header {
+            /* border: 2px solid rgb(4, 0, 255); */
+            margin: 18px 80px 0px 18px;
+            padding: 0px 8px 8px 8px;
+            height: 111px;
+        }
+
+        .left img {
+            border: 2px solid rgb(204, 10, 10);
+            position: relative;
+            display: inline-block;
+            width: 111px;
+            filter: invert(100%);
+        }
+
+
+        .navbar {
+            /* margin: auto; */
+            width: 80%;
+            border-radius: 30px;
+            border: 5px solid rgb(9, 17, 12);
+            /* border-radius: 30px; */
+            background-color: rgb(12, 12, 5);
+            padding: 0px 0px 0px 0px;
+            margin: 40px 0px 0px 170px;
+            /*width: 735px; */
+        }
+
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+            color: rgb(248, 0, 0);
+
+        }
+
+
+        .left {
+            /* border: 2px solid rgb(216, 6, 6); */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+        }
+
+        .left div {
+            background-color: rgb(3, 3, 5);
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+            display: inline-block;
+            margin: 0px 0px 0px -40px;
+        }
+
+        li {
+            padding: 4px 0px 0px 20px;
+            display: inline-block;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        p a{
+            color: rgb(0, 0, 0);
+            background-color: rgb(163, 135, 185);
+            border: 4px solid rgb(0, 0, 0);
+            padding: 8px;
+            border-radius: 28px;
+            display: inline;
+            margin-top: 18px;
+            
+        }
+        p a:hover{
+            color:white;
+
+        }
+        p a:active{
+            color: aquamarine;
+        }
+
+        .active {
+            text-decoration: underline;
+            color: rgb(176, 5, 255);
+        }
+        h1{
+            text-align: center;
+            font-size: 5ex;
+        }
+    
